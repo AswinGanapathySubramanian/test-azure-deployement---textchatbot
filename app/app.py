@@ -4,6 +4,7 @@ import openai
 import uuid
 import os
 
+
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'  # replace with your own secret key
 app.config['SESSION_TYPE'] = 'filesystem'
