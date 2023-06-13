@@ -3,7 +3,6 @@ from flask_session import Session
 import openai
 import uuid
 import os
-from jinja2.utils import escape
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'  # replace with your own secret key
